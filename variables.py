@@ -14,3 +14,11 @@ print("Type of Name:", type(name))
 print("Type of Age:", type(age))
 print("Type of Price:", type(price))
 print("Type of Age2:", type(age2))
+
+
+hello = "tim"
+world = "world"
+world = hello
+hello = "no"
+
+print(hello , world)
