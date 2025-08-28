@@ -13,3 +13,9 @@ print(hello2.count('L'))  # Count occurrences of 'L'
 x = "hello"
 y = 3
 print(x * y)
+
+
+# string add
+x = 'hello'
+y = ' world'
+print(x+ y)
