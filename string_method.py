@@ -7,3 +7,9 @@ hello2 = "HELLO"
 print(hello2.lower())  # Convert to lowercase
 print(hello2.capitalize())  # Capitalize the first letter
 print(hello2.count('L'))  # Count occurrences of 'L'
+
+
+# string multiplication print hello three times
+x = "hello"
+y = 3
+print(x * y)
