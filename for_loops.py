@@ -22,3 +22,8 @@ print("Print list")
 my_list = [1, 2, 3, 4, 5]
 for i in my_list:
     print(i)
+
+# Print elements using their index
+print("Print elements using their index")
+for i in range(len(my_list)):
+    print(my_list[i])
