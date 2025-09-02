@@ -27,3 +27,8 @@ for i in my_list:
 print("Print elements using their index")
 for i in range(len(my_list)):
     print(my_list[i])
+
+# Print elements using their index and value
+print("Print elements using their index and value")
+for i , element in enumerate(my_list):
+    print(f"Index: {i}, Element: {element}")
