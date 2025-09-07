@@ -28,3 +28,17 @@ def func4(x,y):
     print(x, y)
 # print using unpacking dictionaries
 pairs = [{'x': 1, 'y': 2}, {'x': 3, 'y': 4}, {'x': 5, 'y': 6}]
+
+
+# 
+
+# Function that accepts any number of positional and keyword arguments
+def func5(*args, **kwargs):
+    # *args collects extra positional arguments into a tuple
+    # **kwargs collects extra keyword arguments into a dictionary
+    print(args, kwargs)
+
+# Call the function with:
+# - Positional arguments: 1, 2, 3 → go into args as (1, 2, 3)
+# - Keyword arguments: name="John", age=30 → go into kwargs as {"name": "John", "age": 30}
+func5(1, 2, 3, name="John", age=30)
